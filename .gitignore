@@ -1,0 +1,52 @@
+# Allgemeine ignorierbare Dateien
+*.log
+*.tmp
+*.temp
+
+# Ignoriert Node Module
+node_modules/
+
+# Ignoriert Vendor-Verzeichnis von Composer für PHP
+vendor/
+
+# PHP spezifische Ignorierungen
+*.php~
+*.swp
+*.swo
+
+# PHP Caches und Logs
+php_errors.log
+composer.phar
+
+# PHP Unit Test spezifische Dateien
+phpunit.xml
+phpunit.xml.dist
+
+# JavaScript spezifische Ignorierungen
+npm-debug.log
+yarn-error.log
+
+# Ignoriert gebaute Scripts (abhängig von Ihrem Build-Prozess)
+/dist/
+/build/
+
+# Verschiedene Konfigurationsdateien
+/.vscode/
+/.idea/
+*.sublime-workspace
+*.sublime-project
+
+# Umgebungsdateien
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+# Systemdateien
+.DS_Store
+Thumbs.db
+
+
+# PDF
+Downloads/*.pdf
